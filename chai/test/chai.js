@@ -13,7 +13,7 @@ const assert = chai.assert;
 //expect API examples
 
 let a=1, b=1;
-expect(a).to.be.equals(b, "a and b are not equal");
+expect(a).to.be.equals(b);
 
 
 /*
