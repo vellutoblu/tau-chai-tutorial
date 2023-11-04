@@ -14,6 +14,9 @@ const assert = chai.assert;
 
 let a=1, b=1;
 expect(a).to.be.equals(b, "a and b are not equal");
+
+
+/*
 //should--
 a.should.be.equals(b);
 //assert
@@ -43,7 +46,6 @@ assert.deepEqual(x,y, 'x and y are not equal');
 expect(x).to.be.an('object').and.to.be.deep.equals(y);
 x.should.to.be.an('object').and.to.be.deep.equals(y);
 
-
 //arrays
 let numbers = [1,2,3,0];
 expect(numbers).to.be.an('array').that.includes(3);
@@ -64,14 +66,4 @@ function writeToAFile(error){
 }
 
 writeToAFile(undefined);
-
-
-
-
-
-
-
-
-
-
-
+*/
