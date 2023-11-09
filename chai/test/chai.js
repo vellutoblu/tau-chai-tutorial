@@ -33,7 +33,7 @@ function myObj(){
 }
 
 x = new myObj(), y= new myObj();
-¨//expect(x).to.be.an('object');
+//expect(x).to.be.an('object');
 //expect(x).to.be.equals(y, 'x and y are not equal');
 
 
