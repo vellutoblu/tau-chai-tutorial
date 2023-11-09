@@ -40,7 +40,7 @@ x = new myObj(), y= new myObj();
 //deep.equal or deep.equals
 expect(x).to.be.deep.equals(y, 'x and y are not equal');
 
-//x.should.to.be.deep.equals(y, 'x and y are not equal');
+x.should.to.be.deep.equals(y, 'x and y are not equal');
 //assert
 //assert.deepEqual(x,y, 'x and y are not equal');
 
@@ -48,7 +48,7 @@ expect(x).to.be.deep.equals(y, 'x and y are not equal');
 // x is an object; x and y are equal
 // keywords- and, with, but, ...
 expect(x).to.be.an('object').and.to.be.deep.equals(y);
-//x.should.to.be.an('object').and.to.be.deep.equals(y);
+x.should.to.be.an('number').and.to.be.deep.equals(y);
 
 //arrays
 let numbers = [1,2,3,0];
