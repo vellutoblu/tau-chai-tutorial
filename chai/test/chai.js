@@ -52,7 +52,7 @@ expect(x).to.be.an('object').and.to.be.deep.equals(y);
 
 //arrays
 let numbers = [1,2,3,0];
-expect(numbers).to.be.an('array').that.includes(3);
+expect(numbers).to.be.an('array').that.includes(4);
 //should()
 //(numbers).should.be.an('array').that.includes(3);
 //assert.isArray(numbers, 'numbers is not an array');
