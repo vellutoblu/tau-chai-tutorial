@@ -37,7 +37,7 @@ expect(x).to.be.an('object');
 expect(x).to.be.equals(y, 'x and y are not equal');
 
 
-deep.equal or deep.equals
+//deep.equal or deep.equals
 expect(x).to.be.deep.equals(y, 'x and y are not equal');
 /*
 x.should.to.be.deep.equals(y, 'x and y are not equal');
