@@ -12,7 +12,7 @@ const assert = chai.assert;
 
 //expect API examples
 
-let a=1, b=2;
+let a=1, b=1;
 expect(a).to.be.equals(b);
 
 
