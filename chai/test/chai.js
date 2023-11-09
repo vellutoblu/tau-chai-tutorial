@@ -16,13 +16,13 @@ let a=1, b=1;
 expect(a).to.be.equals(b);
 
 
-/*
+
 //should--
 a.should.be.equals(b);
 //assert
-assert.equal(a,b, 'a and b are not equal');
+//assert.equal(a,b, 'a and b are not equal');
 
-*/
+
 
 //object/string/boolean
 function myObj(){
