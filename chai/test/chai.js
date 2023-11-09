@@ -48,7 +48,7 @@ x.should.to.be.deep.equals(y, 'x and y are not equal');
 // x is an object; x and y are equal
 // keywords- and, with, but, ...
 expect(x).to.be.an('object').and.to.be.deep.equals(y);
-x.should.to.be.an('number').and.to.be.deep.equals(y);
+x.should.to.be.an('object').and.to.be.deep.equals(y);
 
 //arrays
 let numbers = [1,2,3,0];
